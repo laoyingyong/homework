@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/list/list",
+        "pages/personal/personalinfo"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#305aab",
+        "navigationBarTitleText": "建行到家",
+        "navigationBarTextStyle": "white"
+    },
+    "framework": "Jump",
+    "style": "v2",
+    "tabBar": {
+        "color": "#6d6d6d",
+        "selectedColor": "#305aab",
+        "borderStyle": "white",
+        "list": [{
+                "selectedIconPath": "assets/index/home_select.png",
+                "iconPath": "assets/index/home.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "assets/index/order_select.png",
+                "iconPath": "assets/index/order.png",
+                "pagePath": "pages/list/list",
+                "text": "列表"
+            },
+            {
+                "selectedIconPath": "assets/index/personal_center_select.png",
+                "iconPath": "assets/index/personal_center.png",
+                "pagePath": "pages/personal/personalinfo",
+                "text": "个人中心"
+            }
+        ]
+    }
+}

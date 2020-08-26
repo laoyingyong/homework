@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 160rpx 0;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 44rpx;
+  color: #333333;
+}
+.button {
+  margin-top: 200rpx;
+  border:none
+}
+.swiper-test {
+  width: 100%;
+  height: 200px;
+  background: transparent;
+}
+
+.swiper-main {
+  height: 100%;
+}
+.swiper-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  will-change: transform;
+}

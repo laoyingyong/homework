@@ -1,0 +1,18 @@
+{
+  "name": "ccbft_miniproject",
+  "version": "1.0.0",
+  "description": "A jump project",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "build": "jump build -n ccbft_miniproject",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jump build -n ccbft_miniproject -k"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jump-mp/build": "^1.2.3",
+    "@jump-mp/cli-rpx2vw-loader": "^1.2.3"
+  }
+}

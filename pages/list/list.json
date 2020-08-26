@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "showdemo": "../../components/showdemo/showdemo"
+    }
+}

@@ -1,0 +1,10 @@
+<view>
+  <view>
+    <web-view
+      src="http://buy.ccb.com/client/index.jhtml#"
+      bindload="onLoad"
+      binderror="onError"
+      bindmessage="onMessage"
+    ></web-view>
+  </view>
+</view>

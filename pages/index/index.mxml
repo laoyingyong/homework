@@ -1,0 +1,48 @@
+<view>
+  <view class="container">
+    <view class="title">{{title}}</view>
+    <hello></hello>
+
+
+ <view class="demo-title">swiper组件示例</view>
+    <view>Swiper基本使用</view>
+    <view class="swiper-test">
+      <swiper
+        class="swiper-main"
+        indicator-dots="{{indicatorDots}}"
+        indicator-color="#fff"
+        current="{{1}}"
+        autoplay="{{autoplay}}"
+        circular="{{circular}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+        vertical="{{false}}"
+        previous-margin="{{previousMargin}}px"
+        next-margin="{{nextMargin}}px"
+        display-multiple-items="{{1}}"
+        easing-function="{{easingFunction}}"
+        bindchange="onSwiperChange"
+        bindanimationfinish="onAnimationfinish"
+        bindtransition='transition'
+      >
+        <swiper-item mp:for="{{bannerList}}" mp:key="item.id" bindtap="clickTest">
+          <image class="swiper-item" src="{{item.url}}"></image>
+        </swiper-item>
+      </swiper>
+    </view>  
+
+<!--for循环-->
+
+    <view class="button">
+        <button class='btn1' open-type='openSetting'>
+          <image class='btnImg' src='../../assets/home/ETC.png'></image>
+          <view>ETC</view>
+        </button>
+    </view>
+    <view class="urlpic">
+        <button class='btn1' open-type='openweb' plain='ture' b>
+          <image class='btnImg' src='../../assets/work-assets/shanrong.jpeg'></image>
+        </button>
+    </view>  
+  </view> 
+</view>
